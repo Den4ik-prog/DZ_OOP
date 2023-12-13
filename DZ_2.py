@@ -1,3 +1,6 @@
+#Задача 3
+print ('Задача #3')
+
 with open('1.txt', 'r', encoding='utf-8') as file: #читаем каждый файл, считаем количество строк
     lines_1 = len(file.readlines())
 
