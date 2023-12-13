@@ -1,5 +1,5 @@
 #Задача 1
-print ('Задача 1')
+print ('Задача #1')
 with open('recipes.txt', encoding='utf-8') as file:
     cook_book = {}
     for i in file:
@@ -15,7 +15,7 @@ with open('recipes.txt', encoding='utf-8') as file:
 print(cook_book)
 
 #Задача 2
-print ('Задача 2')
+print ('Задача #2')
 def get_shop_list_by_dishes(person_count: int, dishes: list):
     result = {}
     for dish in dishes:
